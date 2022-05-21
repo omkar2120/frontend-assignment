@@ -91,7 +91,7 @@ const Ticket = () => {
                         <TableCell align="right">{ticket.name}</TableCell>
                         <TableCell align="right">{ticket.date}</TableCell>
                         <TableCell align="right">
-                          <Button variant={"contained"}>
+                          <Button variant={"contained"} sx={{borderRadius:'20px'}}>
                             {ticket.prority}
                           </Button>
                         </TableCell>
